@@ -1,0 +1,112 @@
+/* Written by Rahul Imtiaz - Student Number: 8941944 */
+
+body {
+  font: 20px/1.5 Arial, sans-serif;
+  background-color: hsla(327, 58%, 45%, 0.999);
+  height: 100vh;
+  width: 100vw;
+}
+
+  h2 {
+    color: #ff0;
+    font-size: 1.5em;
+  }
+
+  main{
+    float: left;
+    width: 620px;
+  }
+  aside{
+    float: left;
+    width: 250px;
+  }
+  footer{
+    clear: both;
+  }
+.structural{
+  padding: 50px;
+  border: 5px solid black;
+  margin: 20px;
+}
+#G1{
+  color: rgb(100,20,20);
+
+}
+#G2{
+  color: rgb(100,150,50);
+}
+header{
+  background-color: hsl(116, 92%, 39%);
+}
+main{
+  background-color: hsl(11, 46%, 53%);
+}
+aside{
+  background-color: hsl(129, 47%, 40%);
+}
+footer{
+  background-color: hsl(191, 90%, 72%);
+}
+a:hover{
+  color: #ff0;
+}
+footer p{
+  font-size: 10px;
+}
+h1{
+  color: darkblue;
+  font-size: 35px;
+}
+aside ul{
+  list-style-type: circle;
+}
+aside ul li{
+  line-height: 1.5;
+  color: red;
+}
+nav li{
+  display: inline;
+  list-style-type: none;
+}
+nav a{
+  border: 2px solid indigo;
+  color: indigo;
+  background-color: cornsilk;
+  text-decoration: none;
+  
+}
+nav a:hover{
+  border-color: cornsilk;
+  color: cornsilk;
+  background-color: indigo;
+}
+form{
+  border: 5px dashed rgb(112, 0, 24);
+  padding: 5px;
+}
+input[type="text"],
+ input[type="email"],
+  input[type="submit"],
+   select, option{
+  
+  width: 50%;
+  display: block;
+  height: 2em;
+}
+input[type="radio"],
+ input[type="checkbox"]{
+  height: 2em;
+  width: 2rem;
+ }
+ select, option, label, legend,input[type="submit"]{
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-variant: small-caps;
+ }
+ textarea{
+  width: 50%;
+  display: block;
+ }
+ fieldset{
+  border: none;
+ }
